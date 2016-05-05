@@ -43,12 +43,11 @@ class Almacen{
 	 */
 	boolean anyadir(Producto producto){
 		//COMPLETAR
-		this.productos = new Producto[MAXIMO_PROD];
 		if(MAXIMO_PROD<10 || Producto.class.equals(this.productos)){
 			return false;
 		}
 		else{
-			
+			this.productos = new Producto[MAXIMO_PROD];
 		}
 		return false;
 	}
